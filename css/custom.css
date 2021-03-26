@@ -1,0 +1,465 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero {
+  background-image: url(../img/kål_redigeret-kopi.jpg);
+  background-size: cover;
+  background-position: top;
+  height: calc(110vh - 56px);
+  opacity: 80%;
+}
+
+.knap {
+  color: white;
+  background-color: #2a6353;
+  border-radius: 20px;
+  padding: 6px;
+}
+.knap:hover {
+  opacity: 47%;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.navbar-brand:nth-child(2):hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.navbar-brand:nth-child(3):hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.navbar-brand:nth-child(4):hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.navbar-light .navbar-brand:nth-child(5) {
+  color: white;
+}
+
+.navbar .container-fluid {
+  background-color: #fafafa;
+}
+
+.navbar img {
+  padding-left: 60px;
+  padding-right: 350px;
+}
+
+.navbar {
+  padding: 0mm;
+}
+
+.slide {
+  background-size: cover;
+}
+.display-4 {
+  padding-top: 200px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.hero p {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.sundhed h2 {
+  font-weight: 600;
+  color: #2a6353;
+  font-style: normal;
+}
+
+.vitamin {
+  font-family: "Oswald", sans-serif;
+  background-image: url(../img/broc.JPG);
+  background-size: cover;
+  background-position: top;
+  text-transform: uppercase;
+  transition: transform 0.5s; /* Animation */
+  cursor: pointer;
+  height: 320px;
+  opacity: 80%;
+}
+
+.natur {
+  font-family: "Oswald", sans-serif;
+
+  background-image: url(../img/mark.jpg);
+  background-size: cover;
+  background-position: center; /* Center the image */
+  height: 320px;
+  text-transform: uppercase;
+  transition: transform 0.5s; /* Animation */
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.brocoli {
+  font-family: "Oswald", sans-serif;
+  background-image: url(../img/gron.jpg);
+  background-size: cover;
+  background-position: center; /* Center the image */
+  height: 320px;
+  color: #fafafa;
+  text-transform: uppercase;
+  text-align: center;
+  transition: transform 0.5s; /* Animation */
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.brocoli:hover {
+  transform: scale(1.1);
+}
+.vitamin:hover {
+  transform: scale(1.1);
+}
+.natur:hover {
+  transform: scale(1.1);
+}
+h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: black;
+}
+.blends {
+  padding-top: 20px;
+  text-align: center;
+}
+hr {
+  border: 1px solid #fafafa;
+  opacity: 100%;
+  border-radius: 5px;
+}
+
+.carousel-item p {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.card-text {
+  font-size: 17px;
+}
+
+.info {
+  background-color: #faf9f6;
+}
+
+.glas {
+  margin: 0px;
+  background-image: url(../img/juicekur.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #9cb6ae;
+  height: 300px;
+}
+
+.info_2 {
+  margin: 0px;
+  background-image: url(../img/juicekur.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #9cb6ae;
+  height: 300px;
+}
+
+.text .card-body {
+  padding: 100px;
+  margin: 100px;
+}
+
+.text {
+  background-image: url(../img/kur.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  line-height: 4rem;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card {
+  border-style: none;
+}
+
+button {
+  color: white;
+  border-style: none;
+  background-color: #2a6353;
+  border-radius: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 50px;
+}
+button:hover {
+  background-color: rgba(65, 109, 72, 0.521);
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.sundhed {
+  background-image: url(../img/sundhed.jpg);
+  background-color: #9cb6ae;
+  opacity: 85%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.7rem;
+  padding-top: 50px;
+  padding-bottom: 350px;
+  line-height: 3.8rem;
+  height: 450px;
+}
+
+.col {
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+
+  font-size: 2.8rem;
+}
+
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+  font-size: 15px;
+}
+.row .card-body {
+  padding-top: 100px;
+}
+
+.citat {
+  text-align: center;
+  background-color: #9cb6ae;
+}
+
+.citat p {
+  color: white;
+  background-image: url(../img/sundhed.jpg);
+  background-size: cover;
+  background-position: bottom;
+  padding: 60px;
+  padding-left: 350px;
+  padding-right: 350px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.citat h2 {
+  color: white;
+}
+.citat {
+  height: 400px;
+}
+
+.card-body p {
+  line-height: 2.5rem;
+}
+h4 {
+  padding-top: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  justify-content: space-around;
+  display: flex;
+  max-width: auto;
+  background-color: #faf9f6;
+}
+
+footer img {
+  justify-content: left;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.test {
+  justify-content: center;
+  width: 1000px;
+}
+.test_2 {
+  width: 520px;
+}
+
+footer hr {
+  color: #2a6353;
+}
+
+footer h2 {
+  font-size: 25px;
+}
+footer p {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .ing_2 {
+    flex-direction: column-reverse;
+  }
+  .row .card-body {
+    padding: 10px;
+  }
+  .display-4 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .natur {
+    padding-top: 90px;
+  }
+  .vitamin {
+    padding-top: 90px;
+  }
+  .brocoli {
+    padding-top: 90px;
+  }
+  .text .card-body {
+    padding: 1px;
+    margin: 1px;
+  }
+  .text {
+    background-size: cover;
+    background-position: left;
+    padding: 20px;
+    margin: 1px;
+  }
+  .sundhed {
+    height: 500px;
+    line-height: 2rem;
+  }
+  .e-mail-bagground h2 {
+    padding: 1px;
+  }
+  .navbar {
+    padding: 10px;
+  }
+  .sundhed h2 {
+    font-size: 2.5rem;
+  }
+  .carousel-item p {
+    margin: 15px;
+  }
+
+  .citat p {
+    padding: 1px;
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .sundhed {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .card-text {
+    justify-content: center;
+    line-height: 50px;
+  }
+
+  .ingredienser_h {
+    margin-right: 150px;
+  }
+  .ingredienser_v {
+    margin-left: 150px;
+  }
+
+  .img_1 {
+    background-position: right;
+  }
+
+  .img_2 {
+    background-position: left;
+  }
+  .e-mail p {
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+.row_2 .card {
+  background-color: #faf9f6;
+}
+
+.row_2 .col:nth-child(1) {
+  background-color: #faf9f6;
+}
+
+.row_2 .col:nth-child(2) {
+  background-color: #faf9f6;
+}
+
+.img_1 {
+  background-image: url(../img/gron_juice.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-radius: 0%;
+  height: 500px;
+}
+.img_2 {
+  background-image: url(../img/orange_juice.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: none;
+  border-radius: 0%;
+  height: 500px;
+}
+
+.img_3 {
+  background-image: url(../img/rod_juice.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: none;
+  border-radius: 0%;
+  height: 500px;
+}
+.col-form-label {
+  color: white;
+}
+.e-mail {
+  color: white;
+  text-align: center;
+}
+
+.e-mail-bagground {
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/brev.jpg);
+}
