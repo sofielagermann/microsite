@@ -3,22 +3,21 @@ body {
 }
 
 .hero {
-  background-image: url(../img/kål_redigeret-kopi.jpg);
+  background-image: url(../img/hero_test.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   height: calc(110vh - 56px);
-  opacity: 80%;
+  opacity: 85%;
 }
 
 .knap {
   color: white;
-  background-color: #2a6353;
-  border-radius: 20px;
-  padding: 6px;
+  background-color: #76796d;
+  border-radius: 32px;
+  padding: 10px;
 }
 .knap:hover {
-  opacity: 47%;
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.5s;
 }
 
@@ -43,13 +42,12 @@ body {
   background-color: #fafafa;
 }
 
-.navbar img {
-  padding-left: 60px;
-  padding-right: 350px;
-}
-
 .navbar {
   padding: 0mm;
+}
+
+.navbar a:nth-child(2) {
+  padding-left: 500px;
 }
 
 .slide {
@@ -61,24 +59,25 @@ body {
   font-family: "Oswald", sans-serif;
   font-size: 80px;
   font-weight: 900;
+  color: white;
 }
 
 .hero p {
+  font-weight: 500;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 2;
 }
 
 .sundhed h2 {
-  font-weight: 600;
-  color: #2a6353;
   font-style: normal;
 }
 
 .vitamin {
   font-family: "Oswald", sans-serif;
-  background-image: url(../img/broc.JPG);
-  background-size: cover;
-  background-position: top;
+  background-image: url(../img/kål_redigeret-kopi.jpg);
+  background-size: contain;
+  background-position: center;
   text-transform: uppercase;
   transition: transform 0.5s; /* Animation */
   cursor: pointer;
@@ -88,8 +87,7 @@ body {
 
 .natur {
   font-family: "Oswald", sans-serif;
-
-  background-image: url(../img/mark.jpg);
+  background-image: url(../img/eu-øko.jpeg);
   background-size: cover;
   background-position: center; /* Center the image */
   height: 320px;
@@ -99,10 +97,14 @@ body {
   opacity: 80%;
 }
 
+.natur h4 {
+  color: #2e302b;
+}
+
 .brocoli {
   font-family: "Oswald", sans-serif;
-  background-image: url(../img/gron.jpg);
-  background-size: cover;
+  background-image: url(../img/gg.png);
+  background-size: contain;
   background-position: center; /* Center the image */
   height: 320px;
   color: #fafafa;
@@ -115,11 +117,16 @@ body {
 
 .brocoli:hover {
   transform: scale(1.1);
+  opacity: 100%;
 }
 .vitamin:hover {
+  opacity: 100%;
+
   transform: scale(1.1);
 }
 .natur:hover {
+  opacity: 100%;
+
   transform: scale(1.1);
 }
 h5 {
@@ -129,6 +136,9 @@ h5 {
   color: black;
 }
 .blends {
+  font-size: 3rem;
+  background-color: #faf9f5;
+  margin: 0;
   padding-top: 20px;
   text-align: center;
 }
@@ -148,7 +158,7 @@ hr {
 }
 
 .info {
-  background-color: #faf9f6;
+  background-color: #fcf6f6;
 }
 
 .glas {
@@ -420,17 +430,94 @@ footer p {
   background-color: #faf9f6;
 }
 
+.kamp {
+  background-color: #faf9f6;
+}
+
+.kamp img {
+  height: 300px;
+}
+
+.kamp img:nth-child(2) {
+  margin-right: 400px;
+}
+
+.kamp p {
+  font-size: 1.1rem;
+  line-height: 2;
+  margin-left: 140px;
+}
+
+.kamp h2 {
+  margin-bottom: 20px;
+  margin-left: 140px;
+}
+
+.insta h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #faf9f6;
+  margin-bottom: 30px;
+}
+.insta {
+  text-align: center;
+}
+.insta a {
+  text-decoration: underline;
+  color: #faf9f6;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+}
+
+.insta .knap {
+  color: #2e302b;
+  background-color: #faf9f6;
+}
+.insta a img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  opacity: 100%;
+}
+.insta a img {
+  border-radius: 7px;
+  opacity: 80%;
+}
+
+.insta {
+  background-color: #76796d;
+}
+
+.jkur {
+  background-color: #fbf9e2;
+}
+.jkur .col {
+  text-align: center;
+}
+.jkur h2 {
+  padding-bottom: 30px;
+}
+
+.jkur p {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
 .img_1 {
-  background-image: url(../img/gron_juice.jpg);
+  background-image: url(../img/gg.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   border-style: none;
   border-radius: 0%;
   height: 500px;
+  background-color: #faf9f5;
 }
 .img_2 {
-  background-image: url(../img/orange_juice.jpg);
+  background-image: url(../img/ono.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -440,13 +527,29 @@ footer p {
 }
 
 .img_3 {
-  background-image: url(../img/rod_juice.jpg);
+  background-image: url(../img/root.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   border-style: none;
   border-radius: 0%;
   height: 500px;
+  background-color: #fcf6f6;
+}
+
+.col_5 {
+  background-color: #fcf6f6;
+  padding-bottom: 94px;
+}
+
+.col_4 {
+  padding-bottom: 94px;
+
+  background-color: #faf9f5;
+}
+.card-body img {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
 }
 .col-form-label {
   color: white;
@@ -462,4 +565,38 @@ footer p {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../img/brev.jpg);
+}
+
+#myVideo {
+  position: relative;
+  background-size: cover;
+  right: 0;
+  bottom: 0;
+  width: fit-content;
+  opacity: 50%;
+  width: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
